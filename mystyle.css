@@ -5,7 +5,6 @@ html *{
         Arial,
         Helvetica,
         sans-serif;
-
 }
 
 body {
@@ -52,8 +51,6 @@ body img{
     background-color: #00ADEE;
     border-radius: 40px;
     padding: 0.3em;
-    /* display: none; */
-
 }
 
 .h-a-t-desc img{
@@ -111,7 +108,6 @@ body img{
 
 .introduce {
     width: 929px;
-    
     background: #E7E7E7;
     border-radius: 55px;
     padding-top: 50px;
@@ -153,17 +149,13 @@ body img{
     text-align: left;
 }
 
-
-/* laout for bottom sections */
+/* layout for bottom sections */
 
 div .section {
     width: 100%;
     display: block;
-    /* padding: 1em; */
     box-sizing: border-box;
     min-height: 300px;
-    /* margin: 2em 0; */
-
 }
 
 div .section > div{
@@ -179,9 +171,7 @@ div .section > div{
 .section div h2{
     margin-left: 2em;
     text-align: left;
-
 }
-
 
 div .section img{
     width: 408px;
@@ -230,7 +220,6 @@ div .section .right{
     }
 }
 
-
 #calendar{
     width: 298px;
     height: 314px;
@@ -244,8 +233,8 @@ div .section .right{
 }
 
 #discount{
-    width: 214px;
-    height: 240px;
+    width: 455px;
+    height: 200px;
 }
 #logo{
     width: 158px;
@@ -257,4 +246,23 @@ div .section .right{
     height: 292px;
     display: block;
     margin: auto auto;
+}
+
+.section-nine {
+    width: 100%;
+    height: 200px;
+    background: #E7E7E7;
+    border-radius: 55px;
+    padding-top: 50px;
+}
+
+.nine-right {
+    float: right;
+    text-align: left;
+}
+
+.nine-left {
+    float: left;
+    padding-left: 20px;
+    padding-bottom: 15px;
 }
